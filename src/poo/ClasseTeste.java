@@ -1,4 +1,4 @@
-package javapoo;
+package poo;
 
 public class ClasseTeste {
 
@@ -8,7 +8,6 @@ public class ClasseTeste {
 		
 		sc.nome = "Leonardo";
 		
-		//System.out.print(sc.nome + " ");
 		
 		sc.andar();
 		sc.comer();
