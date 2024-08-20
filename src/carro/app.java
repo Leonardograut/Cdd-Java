@@ -7,8 +7,13 @@ public class app {
 		Veiculo sc = new Veiculo(2015);
 		System.out.println("Quantidade de veiculos " + sc.getQuantidadeVeiculos());
         System.out.println(sc.idade(10, 5));
+        System.out.println(sc.km_litro(5, 10));
         
-        String cor;
+        
+        
+        
+        
+       
         
         Carro carro = new Carro("fiat","branca",2010,20,true);
         carro.acelerar(10);
@@ -16,7 +21,18 @@ public class app {
         carro.pintar("BRANCO");
       
         
-        System.out.println();
+        
+        Caminhao cam = new Caminhao(10);
+        
+        cam.getAnoAtual();
+        cam.getAnoFabricacao();
+        cam.getQuantidadeVeiculos();
+        
+        
+        
+        
+        
+        
 	}
 
 }

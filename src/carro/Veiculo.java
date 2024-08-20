@@ -53,7 +53,7 @@ public class Veiculo {
 	public Veiculo(int anoFabricacao) {
 		 this.anoFabricacao = anoFabricacao;
 		 this.anoAtual = 2023; 
-		quantidadeVeiculos++;
+		 quantidadeVeiculos++;
 	  }
 
 	public int  idade (int anoFabricacao , int anoAtual) {

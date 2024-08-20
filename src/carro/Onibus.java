@@ -7,4 +7,8 @@ public class Onibus extends Veiculo {
 	public Onibus(int idade) {
 		super(idade);
 	}
+	
+	public  int qtdPortas (int ports) {
+		return ports = PORTAS; 
+	}
 }

@@ -7,5 +7,7 @@ public class Caminhao extends Veiculo {
 	public Caminhao(int idade) {
 		super(idade);
 	}
-	
+	public int qtdPortas(int port) {
+		return port = PORTAS;
+	}
 }
